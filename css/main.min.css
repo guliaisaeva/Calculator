@@ -1,0 +1,108 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0 auto;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  border: #071108 solid 4px;
+  background-color: #364652;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Stint Ultra Condensed", cursive;
+  font-weight: 700;
+  display: block;
+  padding-left: 40px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.calculator {
+  display: block;
+  padding-left: 40px;
+}
+
+.screen {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.screen__input {
+  display: inline-block;
+  width: 390px;
+  height: 70px;
+  text-align: right;
+  background-color: #b5bec6;
+  font-size: 24px;
+  border: #071108 solid 2px;
+  padding-right: 20px;
+}
+
+.btn {
+  width: 90px;
+  height: 70px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #071108 solid 2px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  font-size: 24px;
+  background-color: #c7dbe6;
+}
+
+@media screen and (max-width: 495px) {
+  .calculator {
+    display: block;
+    padding-left: 50px;
+  }
+  h1 {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .screen {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .screen__input {
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    text-align: right;
+    background-color: #b5bec6;
+    font-size: 20px;
+    border: #071108 solid 2px;
+    padding-right: 20px;
+  }
+  .btn {
+    width: 45px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: #071108 solid 2px;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    font-size: 20px;
+    background-color: #c7dbe6;
+  }
+}
